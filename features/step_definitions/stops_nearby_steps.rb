@@ -21,7 +21,6 @@ When(/^I request stops nearby within (\d+) meters$/) do |distance|
 end
 
 Then(/^the stops should be:$/) do |expected|
-  puts expected.class
   formatted = @data.collect() do |r|
     [r['distance'].to_s, r['stop']['number'].to_s, r['stop']['name']]
   end
