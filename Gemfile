@@ -1,0 +1,6 @@
+source 'http://rubygems.org'
+gem 'faraday'
+gem 'cucumber'
+gem 'json'
+gem 'rake'
+gem 'rspec'
